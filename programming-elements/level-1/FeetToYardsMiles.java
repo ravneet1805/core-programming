@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class FeetToYardsMiles {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         
         System.out.print("Enter the distance in feet: ");
-        double distanceInFeet = input.nextDouble();
+        double distanceInFeet = in.nextDouble();
         
         double yards = distanceInFeet / 3;
         double miles = distanceInFeet / 5280;

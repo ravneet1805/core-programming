@@ -5,10 +5,10 @@ import java.util.Scanner;
 
 public class HandshakesCalculator {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         
         System.out.print("Enter the number of students: ");
-        int numberOfStudents = input.nextInt();
+        int numberOfStudents = in.nextInt();
         
         int handshakes = (numberOfStudents * (numberOfStudents - 1)) / 2;
         

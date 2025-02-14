@@ -5,13 +5,13 @@ import java.util.Scanner;
 
 public class StudentFeeDiscount {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner in = new Scanner(System.in);
         
         System.out.print("Enter the fee: ");
-        double fee = input.nextDouble();
+        double fee = in.nextDouble();
         
         System.out.print("Enter the discount percent: ");
-        double discountPercent = input.nextDouble();
+        double discountPercent = in.nextDouble();
         
         double discount = (fee * discountPercent) / 100;
         double discountedFee = fee - discount;

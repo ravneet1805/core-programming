@@ -7,10 +7,10 @@ public class ProfitLoss {
         int sp = 250;
 
         int profit = sp-cp;
-        double profitPercent = (profit/cp) * 100;
+        double profitPercent = ((double)profit/cp) * 100;
 
         System.out.println("The Cost Price is INR "+cp+ " and Selling Price is "+ sp+
-        " The Profit is INR "+profit+ " and the Profit Percentage is "+profitPercent);
+        " The Profit is INR "+profit+ " and the Profit Percentage is "+profitPercent+"%");
     }
 }
 
