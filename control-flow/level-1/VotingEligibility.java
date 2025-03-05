@@ -6,6 +6,6 @@ class VotingEligibility {
         System.out.print("Enter age: ");
         int age = in.nextInt();
         System.out.println("The person's age is " + age + " and " + (age >= 18 ? "can vote." : "cannot vote."));
-        in.close();
+
     }
 }

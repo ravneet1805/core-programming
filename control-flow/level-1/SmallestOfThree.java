@@ -6,6 +6,6 @@ class SmallestOfThree {
         System.out.print("Enter three numbers: ");
         int num1 = in.nextInt(), num2 = in.nextInt(), num3 = in.nextInt();
         System.out.println("Is the first number the smallest? " + (num1 < num2 && num1 < num3));
-        in.close();
+
     }
 }

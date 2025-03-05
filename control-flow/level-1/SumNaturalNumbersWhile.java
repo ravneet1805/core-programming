@@ -19,6 +19,6 @@ class SumNaturalNumbersWhile {
             System.out.println("Sum using formula: " + formulaSum);
             System.out.println("Both computations match: " + (sum == formulaSum));
         }
-        in.close();
+
     }
 }

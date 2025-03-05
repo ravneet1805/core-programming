@@ -8,6 +8,6 @@ class OddEvenNumbers {
         for (int i = 1; i <= n; i++) {
             System.out.println(i + " is " + (i % 2 == 0 ? "Even" : "Odd"));
         }
-        in.close();
+
     }
 }

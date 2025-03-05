@@ -10,6 +10,6 @@ class CountdownWhile {
             counter--;
         }
         System.out.println("Liftoff!");
-        in.close();
+
     }
 }

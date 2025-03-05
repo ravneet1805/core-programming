@@ -14,7 +14,7 @@ class EmployeeBonus {
         } else {
             System.out.println("No bonus for less than 5 years of service.");
         }
-        in.close();
+
     }
 }
 

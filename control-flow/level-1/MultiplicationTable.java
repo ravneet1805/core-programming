@@ -9,6 +9,6 @@ class MultiplicationTable {
         for (int i = 6; i <= 9; i++) {
             System.out.println(number + " x " + i + " = " + (number * i));
         }
-        in.close();
+        
     }
 }

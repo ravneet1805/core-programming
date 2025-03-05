@@ -17,6 +17,6 @@ class FactorialWhile {
             }
             System.out.println("Factorial of " + n + " is " + factorial);
         }
-        in.close();
+
     }
 }

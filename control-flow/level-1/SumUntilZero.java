@@ -11,6 +11,6 @@ class SumUntilZero {
             total += num;
         }
         System.out.println("Total sum: " + total);
-        in.close();
+
     }
 }

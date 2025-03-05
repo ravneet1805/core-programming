@@ -9,6 +9,6 @@ class CountdownFor {
             System.out.println(i);
         }
         System.out.println("Liftoff!");
-        in.close();
+
     }
 }

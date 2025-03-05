@@ -6,7 +6,7 @@ class Divisible {
         System.out.print("Enter a number: ");
         int number = in.nextInt();
         System.out.println("Is the number " + number + " divisible by 5? " + (number % 5 == 0));
-        in.close();
+
     }
 }
 
