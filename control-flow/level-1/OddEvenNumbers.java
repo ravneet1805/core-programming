@@ -1,4 +1,4 @@
-// 12. Find odd and even numbers up to n
+// 16. Find odd and even numbers up to n
 import java.util.Scanner;
 class OddEvenNumbers {
     public static void main(String[] args) {

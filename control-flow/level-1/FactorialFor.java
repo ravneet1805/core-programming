@@ -1,4 +1,4 @@
-// 11. Find factorial using for loop
+// 15. Find factorial using for loop
 import java.util.Scanner;
 class FactorialFor {
     public static void main(String[] args) {
